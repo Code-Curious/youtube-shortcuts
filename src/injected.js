@@ -68,10 +68,10 @@ var functions = {
       $('.yt-uix-subscription-button')[0].click();
   },
   playlist() {
-    $('.yt-uix-videoactionmenu-button')[0].click();
+    $('button.addto-button')[0].click();
   },
   info() {
-    $('.yt-uix-button-expander')[0].click();
+    $('button.yt-uix-button-expander.yt-uix-expander-head')[0].click();
   },
 
   // List navigation shortcuts
