@@ -19,9 +19,9 @@ function init() {
         eventList[i] = e;
         updateKeyChoice(e);
       });
-    }(i))
+    })(i)
   }
-
+  
   document.getElementById('save').addEventListener('click', () => {
     saveKeys();
 
